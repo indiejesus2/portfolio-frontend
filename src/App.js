@@ -1,11 +1,13 @@
 import React,{ Component } from 'react'
-import WelcomeContainer from './containers/WelcomeContainer'
+import Welcome from './components/Welcome'
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <WelcomeContainer />
+        <Welcome />
+        <Projects />
       </div>
     );
   }
