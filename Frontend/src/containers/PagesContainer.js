@@ -12,9 +12,7 @@ class PagesContainer extends Component {
                     <Route direct path ='/welcome'>
                         <Welcome />
                     </Route>
-                    <Route direct path ='/projects'>
-                        <Projects />
-                    </Route>
+                    <Route direct path ='/projects' render={(routerProps) => <Projects {...routerProps} projects={this.props.projects} />} />
                     <Route direct path='/'><Redirect to="/Welcome" /></Route>
                 </Switch>
             </div>

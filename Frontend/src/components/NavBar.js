@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom'
+import Nav from 'react-bootstrap/Nav';
 
 class NavBar extends Component {
 
@@ -19,7 +18,7 @@ class NavBar extends Component {
                     <Nav.Link to={`/welcome`}>Resume</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link to={`/welcome`}>Contact</Nav.Link>
+                    <Nav.Link to={`/projects`}>Contact</Nav.Link>
                 </Nav.Item>
             </Nav>
             </div>

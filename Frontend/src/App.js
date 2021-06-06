@@ -1,11 +1,21 @@
-import React,{ Component } from 'react'
+import React from 'react'
+import {useState, useEffect} from 'react'
 import PagesContainer from './containers/PagesContainer';
 import NavBar from './components/NavBar'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 // import 'bootstrap/dist/css/boostrap.min.css'
 
-class App extends Component {
-  render() {
+function App() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+      fetch('http://localhost:3000/projects')
+      .then(resp => resp.json())
+      .then(projects => {
+          setProjects(projects)
+      })
+  }, [])
+
     return (
       <div className="App">
         <div className="container">
@@ -19,10 +29,9 @@ class App extends Component {
             </div> */}
           </div>
           </div>
-          <PagesContainer />
+          <PagesContainer projects={projects}/>
       </div>
     );
-  }
   }
 
 export default App;
