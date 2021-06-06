@@ -9,8 +9,8 @@ const Projects = props => {
                 <ul>
                     {props.projects.map(project => 
                         <li key={project.id}>
-                            <Link target={"{}"} to={{ pathname: "https://www.github.com/indiejesus2/counting-cookies"}}>{project.title}</Link>
-                            <Link to={{ pathname: "https://drive.google.com/file/d/1PYk54rWBVbEonz_Nslf5JXcbIvTyGYZr/view" }} target={"{}"}>
+                            <Link target={"{}"} to={{ pathname: project.git}}>{project.title}</Link>
+                            <Link to={{ pathname: project.demo }} target={"{}"}>
                                 <img src={project.screenshot} alt="Demo" className="img-fluid" />
                             </Link>
                         </li>    
