@@ -9,16 +9,16 @@ class NavBar extends Component {
 
             <Nav className="d-flex justify-content-between">
                 <Nav.Item>
-                    <Nav.Link to={`/welcome`}>Welcome</Nav.Link>
+                    <Nav.Link href={`/welcome`}>Welcome</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link to={`/projects`}>Projects</Nav.Link>
+                    <Nav.Link href={`/projects`}>Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link to={`/welcome`}>Resume</Nav.Link>
+                    <Nav.Link href={`/welcome`}>Resume</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link to={`/projects`}>Contact</Nav.Link>
+                    <Nav.Link href={`/projects`}>Contact</Nav.Link>
                 </Nav.Item>
             </Nav>
             </div>
