@@ -15,10 +15,10 @@ class NavBar extends Component {
                     <Nav.Link href={`/projects`}>Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href={`/welcome`}>Resume</Nav.Link>
+                    <Nav.Link href={`/resume`}>Resume</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href={`/projects`}>Contact</Nav.Link>
+                    <Nav.Link href={`/contact`}>Contact</Nav.Link>
                 </Nav.Item>
             </Nav>
             </div>
