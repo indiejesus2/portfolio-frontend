@@ -9,22 +9,23 @@ import Col from 'react-bootstrap/Col'
 const Projects = props => {
 
         return (
+
             <Container>
-                <Row xs={1} xl={2} >
-                    {/* <Col xs lg="2"> */}
+                <Row xs={1} md={2} >
                             {props.projects.map(project => 
+                            <Col className="d-flex justify-content-around">
                                 <Card key={project.id} style=
-                                {{ width: '20rem', height: '20rem', margin: '20px'}}
+                                {{ width: '20rem', height: '20rem', margin: '10px'}}
                                 >
                                     <Card.Header className="text-center">
                                         <Link target={"{}"} to={{ pathname: project.git}}>{project.title}</Link>
                                     </Card.Header>
                                     <Link to={{ pathname: project.demo }} target={"{}"}>
-                                        <Card.Img src={project.screenshot} alt="Demo" className="img-fluid" />
+                                        <Card.Img src={project.screenshot} alt="Demo" class="img-fluid" />
                                     </Link>
                                 </Card>
+                    </Col>
                             )}
-                    {/* </Col> */}
                     {/* <CardColumns> */}
                     {/* </CardColumns> */}
                 </Row>

@@ -27,8 +27,16 @@ code {
 }
 
 img {
+  float: left;
+  margin-right: 10px;
   border-radius: 4px;
   padding: 5px;
+  height: 300px;
+  width: 300px;
+}
+
+.skills-container img {
   height: 100px;
   width: 100px;
-}
+  padding: 5px;
+} 
