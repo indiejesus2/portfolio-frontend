@@ -22,8 +22,19 @@ code {
   padding: 25px;
 }
 
-#card {
-  margin: 2px;
+.jumbotron h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.lead {
+  display: flex;
+}
+
+.card {
+  width: 20rem;
+  height: 20rem;
+  margin: 10px;
 }
 
 img {
@@ -33,6 +44,12 @@ img {
   padding: 5px;
   height: 300px;
   width: 300px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
 .skills-container img {

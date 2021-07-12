@@ -6,17 +6,16 @@ class Resume extends Component {
         return (
             <div className="container">
                 <h1>Resume</h1>
-                <span className="skills-container">
-                    <h3>Skills</h3>
+                <h3>Skills</h3>
+                <div className="skills-container">
+                        <br />
                         <img src="images/javascript.png" alt="Javascript" />
                         <img src="images/ruby.png" alt="Ruby" />
                         <img src="images/react.png" alt="React" />
                         <img src="images/redux.png" alt="Redux" />
                         <img src="images/bootstrap.png" alt="Bootstrap" />
-                        <br />
-                </span>
-                <div className="container">
-                    <h3>Education</h3>
+                </div>
+                <h3>Education</h3>
                     <ul>
                         <li>Flatiron School - Software Development Program</li>
                         <small>Full Stack Web Development, Ruby on Rails and JavaScript program</small>
@@ -25,7 +24,6 @@ class Resume extends Component {
                         <li>Monmouth University - Communications </li>
                         <small>Feature Writing - Ethics in Journalism - Editorial Writing</small>
                     </ul>
-                </div>
                 <h3>Experience</h3>
                     <h5>Jackson Public School District - Building Substitute Teacher</h5>
                 <ul>
