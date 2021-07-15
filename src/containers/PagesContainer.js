@@ -11,7 +11,8 @@ class PagesContainer extends Component {
         return (
             <div>
                 <Switch>
-                    <Route direct path ='/welcome'>
+                    <Redirect exact from="/" to="/Welcome" />
+                    <Route path ='/welcome'>
                         <Welcome />
                     </Route>
                     <Route direct path ='/resume'>
