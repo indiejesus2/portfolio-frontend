@@ -22,6 +22,8 @@ function App() {
       <div className="App">
         <div className="container">
             <div className="jumbotron">
+
+              <code>{ process.env.REACT_APP_HELLO }</code>
           {/* <div className="my-auto">
           <div className="py-auto"> */}
 

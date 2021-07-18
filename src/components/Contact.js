@@ -11,9 +11,9 @@ class Contact extends Component {
                     <table>
                         <tr>
                             <td>
-                                Email: 
+                                Email:   
                             </td>
-                            <td><a href="mailto:dste.mariejr@gmail.com"></a></td>
+                            <td><a href="mailto:dste.mariejr@gmail.com">Daniel Ste. Marie</a></td>
                         </tr>
                     </table>
                 </div>
