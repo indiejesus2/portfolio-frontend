@@ -1,7 +1,7 @@
 {
-    "root": "src/",
+    "root": "public/",
     "routes": {
-      "/**": "index.js"
+      "/**": "index.html"
     },
     "proxies": {
       "/api/": {
