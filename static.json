@@ -3,6 +3,7 @@
     "routes": {
       "/**": "index.html"
     },
+    "https_only": true,
     "proxies": {
       "/api/": {
         "origin": "https://indiejesus2-portfolio-backend.herokuapp.com/"

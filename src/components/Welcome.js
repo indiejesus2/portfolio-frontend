@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import Me from '../images/Me (2).png'
 
 class Welcome extends Component {
 
@@ -6,7 +7,7 @@ class Welcome extends Component {
         return (
             <div className="container">
                 <div className="py-5">
-                <img src='images/me (2).png' alt="Dan Ste. Marie" className="img-fluid rounded " />
+                <img src={Me} alt="Dan Ste. Marie" className="img-fluid rounded " />
                 <h3 className="text-muted">Hello!</h3>
                 <h2 className="display-1">I'm Dan Ste. Marie. </h2>
                 <h4>Welcome to my Homepage!</h4>
