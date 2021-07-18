@@ -2,11 +2,13 @@ import React from 'react'
 import {useState, useEffect} from 'react'
 import PagesContainer from './containers/PagesContainer';
 import NavBar from './components/NavBar'
+import runtimeEnv from '@mars/heroku-js-runtime-env';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 // import 'bootstrap/dist/css/boostrap.min.css'
 
 function App() {
   const [projects, setProjects] = useState([]);
+  const env = runtimeEnv();
 
   useEffect(() => {
       fetch('https://indiejesus2-portfolio-backend.herokuapp.com/')
