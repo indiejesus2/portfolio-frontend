@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Bootstrap from '../images/Bootstrap.png'
-import Javascript from '../images/Javascript.png'
-import Ruby from '../images/Ruby.png'
-import ReactPic from '../images/React.png'
-import Redux from '../images/Redux.png'
+import Bootstrap from '../images/bootstrap.png'
+import Javascript from '../images/javascript.png'
+import Ruby from '../images/ruby.png'
+import ReactPic from '../images/react.png'
+import Redux from '../images/redux.png'
 
 class Resume extends Component {
 

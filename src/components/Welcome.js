@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Me from '../images/Me (2).png'
+import Me from '../images/me.png'
 
 class Welcome extends Component {
 
