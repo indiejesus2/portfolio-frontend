@@ -8,6 +8,7 @@ import Contact from '../components/Contact'
 class PagesContainer extends Component {
 
     render() {
+        document.title = "Daniel Ste. Marie"
         return (
             <div>
                 <Switch>

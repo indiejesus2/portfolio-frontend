@@ -8,7 +8,6 @@ import './index.css';
 
 ReactDOM.render(
     <Router>
-      document.title = "Daniel Ste. Marie"
       <App />
     </Router>,
   document.getElementById('root')
