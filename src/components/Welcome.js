@@ -6,7 +6,7 @@ class Welcome extends Component {
         return (
             <div className="container">
                 <div className="py-5">
-                <img src="images/Me.png" alt="Dan Ste. Marie" className="img-fluid rounded " />
+                <img src="images/me.png" alt="Dan Ste. Marie" className="img-fluid rounded " />
                 <h3 className="text-muted">Hello!</h3>
                 <h2 className="display-1">I'm Dan Ste. Marie. </h2>
                 <h4>Welcome to my Homepage!</h4>
