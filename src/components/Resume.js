@@ -1,9 +1,4 @@
 import React, { Component } from 'react'
-import Bootstrap from '../images/bootstrap.png'
-import Javascript from '../images/javascript.png'
-import Ruby from '../images/ruby.png'
-import ReactPic from '../images/react.png'
-import Redux from '../images/redux.png'
 
 class Resume extends Component {
 
@@ -14,11 +9,11 @@ class Resume extends Component {
                 <h3>Skills</h3>
                 <div className="skills-container">
                         <br />
-                        <img src={Javascript} alt="Javascript" />
-                        <img src={Ruby} alt="Ruby" />
-                        <img src={ReactPic} alt="React" />
-                        <img src={Redux} alt="Redux" />
-                        <img src={Bootstrap} alt="Bootstrap" />
+                        <img src="images/Javascript.png" alt="Javascript" />
+                        <img src="images/Ruby.png" alt="Ruby" />
+                        <img src="images/React.png" alt="React" />
+                        <img src="images/Redux.png" alt="Redux" />
+                        <img src="images/Bootstrap.png" alt="Bootstrap" />
                 </div>
                 <h3>Education</h3>
                     <ul>
