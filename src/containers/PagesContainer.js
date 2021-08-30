@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Route, Switch, Redirect} from 'react-router-dom'
 import Welcome from '../components/Welcome'
 import Projects from '../components/Projects'
+import Project from '../components/Project'
 import Resume from '../components/Resume'
 import Contact from '../components/Contact'
 
@@ -19,7 +20,8 @@ class PagesContainer extends Component {
                     <Route direct path ='/resume'>
                         <Resume />
                     </Route>
-                    <Route direct path ='/projects' render={(routerProps) => <Projects {...routerProps} projects={this.props.projects} />} />
+                    <Route path ='/projects' render={(routerProps) => <Projects {...routerProps} projects={this.props.projects} />} />
+                    <Route path ='/projects/:id' render={(routerProps) => <Project {...routerProps} projects={this.props.projects} />} />
                     <Route direct path='/contact'>
                         <Contact />
                     </Route>

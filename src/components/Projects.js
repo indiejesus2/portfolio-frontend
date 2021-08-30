@@ -15,7 +15,7 @@ const Projects = props => {
                             <Col className="d-flex justify-content-around">
                                 <Card key={project.id} >
                                     <Card.Header className="text-center">
-                                        <Link target={"{}"} to={{ pathname: project.git}}>{project.title}</Link>
+                                        <Link target={"{}"} to={`/projects/${project.id}`}>{project.title}</Link>
                                     </Card.Header>
                                     <Link to={{ pathname: project.demo }} target={"{}"}>
                                         <Card.Img src={project.screenshot} alt="Demo" class="img-fluid" />
