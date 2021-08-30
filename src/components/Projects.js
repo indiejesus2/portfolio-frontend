@@ -18,7 +18,7 @@ const Projects = props => {
                                         <Link target={"{}"} to={`/projects/${project.id}`}>{project.title}</Link>
                                     </Card.Header>
                                     <Link to={{ pathname: project.demo }} target={"{}"}>
-                                        <Card.Img src={project.screenshot} alt="Demo" class="img-fluid" />
+                                        <Card.Img src={project.screenshot} alt="Demo" className="img-fluid" />
                                     </Link>
                                 </Card>
                             </Col>

@@ -1,8 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Resume extends Component {
-
-    render() {
+const Resume = () => {
         return (
             <div className="container">
                 <h1>Resume</h1>
@@ -38,7 +36,6 @@ class Resume extends Component {
                 </ul>
             </div>
         )
-    }
 }
 
 export default Resume
