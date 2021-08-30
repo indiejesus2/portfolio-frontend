@@ -56,4 +56,9 @@ img {
   height: 100px;
   width: 100px;
   padding: 5px;
-} 
+}
+
+.contact td {
+  display: grid;
+  margin-bottom: 10px;
+}
