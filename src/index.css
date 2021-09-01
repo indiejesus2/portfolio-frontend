@@ -62,3 +62,15 @@ img {
   display: grid;
   margin-bottom: 10px;
 }
+
+.project {
+  display: grid;
+  margin: 5px;
+  padding: 25px;
+  justify-content: center;
+}
+
+/* .project h2 {
+  display: flex;
+  justify-content: center;
+} */

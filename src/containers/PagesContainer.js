@@ -20,7 +20,7 @@ class PagesContainer extends Component {
                     <Route direct path ='/resume'>
                         <Resume />
                     </Route>
-                    <Route path ='/projects/:id' render={(routerProps) => <Project {...routerProps} projects={this.props.projects} />}></Route>
+                    <Route from ='/projects/:id' render={(routerProps) => <Project {...routerProps} projects={this.props.projects} />}></Route>
                     <Route path ='/projects' render={(routerProps) => <Projects {...routerProps} projects={this.props.projects} />}></Route>
                     <Route direct path='/contact'>
                         <Contact />
